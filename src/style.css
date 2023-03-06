@@ -1,0 +1,84 @@
+.App{
+    height: 100vh;
+    padding: 100px ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 90px 0px 90px;
+    color: white;
+
+
+}
+
+h1{
+    color: white;
+}
+
+
+.navbar{
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+.card{
+    padding-top: 20px;
+    background-color: #02284e;
+    border-radius: 4px;
+    height: 300px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-box-shadow: 2px 0px 15px 4px rgba(0,0,0,0.45); 
+box-shadow: 2px 0px 15px 4px rgba(0,0,0,0.45);
+}
+
+.cardContainer{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+@media (max-width: 980px) {
+   
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+
+
+
+/*   pagination */
+
+
+.MuiPagination-root {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    background-color: rgb(255, 255, 255);
+}
+
